@@ -1,1 +1,1 @@
-# rsschool-cv
+https://dudinpn.github.io/rsschool-cv/cv
