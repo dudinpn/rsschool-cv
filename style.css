@@ -1,28 +1,42 @@
+:root {
+  --bg-color: #259474;
+  --link-color: #b2e0d3;
+  --link-projects-color: red;
+}
+
 body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   font-family: "Rubik", sans-serif;
+  margin: 0;
 }
 
 h1,
-h2
- {font-family: "Carter One", cursive;
+h2 {
+  font-family: "Carter One", cursive;
 }
 
-.nav {box-sizing: border-box; 
-    background-color: #c7e674;
-    
-    align-items: center;
-    justify-content: center;}
+header {
+  background-color: var(--bg-color);
+}
+
+.nav-link {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
 
 .column-main {
-     display: flex;
+  display: flex;
 }
 
-.column {  
-    padding: 15px;
-  }
+.column {
+  padding: 15px;
+}
 
 .container {
   max-width: 1440px;
@@ -37,57 +51,52 @@ h2
 }
 
 .nav-list {
-
   display: flex;
-  flex-wrap: nowrap;
   padding: 0;
   list-style: none;
   justify-content: right;
-  
+  align-items: center;
 }
 
 .nav-item {
   padding: 10px;
-  
 }
-.github-logo {
-    width: 20px;
-    height: auto;
-    margin-right: 4px;
+.nav-item--left {
+  margin-right: auto;
 }
 
-.text-hover {
-  background-color: rgb(113, 230, 157);
-  }
-
-.code { background-color: white;
-    width: auto;
-
+.link-projects{
+  color: var(--link-projects-color);
+  text-decoration: underline;
 }
 
-.footer{
-    box-sizing: border-box; 
-    background-color: #c7e674;
-    width: 100%;
-    align-items: center;
-    justify-content: center;}
+.code {
+  background-color: white;
+  width: auto;
+}
 
-.footer-container {
-    display: flex;
-    padding: 20px;
-        justify-content: space-between;
-        align-items: center;
-        margin: 0 auto;
-        color: #fff
-
+.footer {
+  background-color: var(--bg-color);
+  color: var(--link-color);
 }
 
 .flex-center {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .avatar {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
+.github-logo {
+  width: 24px;
+  height: auto;
+  margin-right: 8px;
+}
+
+.rss-logo {
+  width: 95px;
+  height: auto;
+  margin-right: 8px;
+}
