@@ -1,28 +1,31 @@
 :root {
-  --bg-color: #259474;
-  --link-color: #b2e0d3;
-  --link-projects-color: red;
+  --primary-color: #39c2d7;
+  --secondary-color: #a3c644;
+  --header-color: #187763;
+  --body-color: #dbebce;
+
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   font-family: "Rubik", sans-serif;
   margin: 0;
+  
+  
 }
 
 h1,
 h2 {
   font-family: "Carter One", cursive;
 }
-
-header {
-  background-color: var(--bg-color);
+h2 {
+ color: var(--primary-color); 
 }
-
+h2::before {
+  content: "\2638";
+  margin-right: 8px;
+}
 .nav-link {
-  color: var(--link-color);
+  color: var(--secondary-color);
   text-decoration: none;
 }
 
@@ -30,17 +33,37 @@ header {
   text-decoration: underline;
 }
 
-.column-main {
+.main {
   display: flex;
+  /* padding: 40px 0; */
+  
 }
 
 .column {
-  padding: 15px;
+  padding: 15px 40px;
+  background-color:var(--body-color);
+  flex: 0 0 500px;
+  box-sizing: border-box;
+}
+
+.column2 {
+  padding: 15px 40px;
+  flex: 1;
+  margin-top: 70px;
+}
+
+main li {
+  margin-bottom: 8px;
+}
+main li:last-child {
+  margin-bottom: 0;
 }
 
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  width: 100%;
+  
 }
 
 .box {
@@ -56,6 +79,7 @@ header {
   list-style: none;
   justify-content: right;
   align-items: center;
+  background-color:var(--header-color);
 }
 
 .nav-item {
@@ -65,18 +89,15 @@ header {
   margin-right: auto;
 }
 
-.link-projects{
-  color: var(--link-projects-color);
-  text-decoration: underline;
-}
-
 .code {
   background-color: white;
   width: auto;
+  border-left: 4px solid #000;
+  padding: 20px 0;
 }
 
 .footer {
-  background-color: var(--bg-color);
+  background-color:var(--header-color);
   color: var(--link-color);
 }
 
@@ -87,6 +108,7 @@ header {
 
 .avatar {
   border-radius: 50%;
+  max-width: 300px;
 }
 
 .github-logo {
@@ -99,4 +121,16 @@ header {
   width: 95px;
   height: auto;
   margin-right: 8px;
+}
+header .nav-list,
+footer .nav-list {
+  margin: 0px;
+}
+
+#Contacts ul {
+  list-style: none;
+}
+
+#Contacts img {
+  padding-right: 4px;
 }
