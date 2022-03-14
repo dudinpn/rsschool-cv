@@ -1,9 +1,9 @@
 ## Pavel Dudin
 ###  Contact information:
-*Discord: Pavel Dudin#6577
-*GitHub: dudinpn
-*Phone: 8-921-337-87-56
-*E-mail: dudinpn@mail.ru
+* Discord: Pavel Dudin#6577
+* GitHub: dudinpn
+* Phone: 8-921-337-87-56
+* E-mail: dudinpn@mail.ru
 ### Briefly About Myself:
 Морской инженер. Опыт проектирования систем управления ГЭУ - 7 лет
 ### Skills and Proficiency:
