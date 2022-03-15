@@ -1,21 +1,47 @@
 ## Pavel Dudin
+***
 ###  Contact information:
-* Discord: Pavel Dudin#6577
-* GitHub: dudinpn
+* Discord: Pavel Dudin#6577 
+* GitHub: dudinpn (<https://github.com/dudinpn>)
 * Phone: 8-921-337-87-56
-* E-mail: dudinpn@mail.ru
+* E-mail: <dudinpn@mail.ru>
+***
 ### Briefly About Myself:
-Морской инженер. Опыт проектирования систем управления ГЭУ - 7 лет
+I am 29 years old. I have been working as a marine engineer for 7 years. But the desire to learn something new and modern led me to the courses «JavaScript/Front-end». I am fond of snowboarding, cycling, kayaking.
+***
 ### Skills and Proficiency:
-* Знание ЕСКД
-* AutoCad
-* Catia
+* Html, CSS
+* VS Code, Git
+* AutoCAD, Catia
+* Adobe Illustrator
+***
 ### Code example:
--В студенческие годы была разработанна программа (с использованием Delphi7) для расчета параметров электрического двигателя с использованием Elcut
+> function changePhotos(event) {
+>>  if (
+>>    event.target.classList.contains("nav-link") ||
+>>    event.target.classList.contains("logo")
+>>  ) 
+>>>   { document.querySelectorAll(".nav-link").forEach((a) => {
+>>>     if (a.classList.contains("isActive")) {
+>>>        a.classList.remove("isActive");
+>>>     }
+>>>    });
+***
 ### experience
-Создание и проектирование систем управления ГЭУ, в том числе локальных систем управления.
++ Creation and design of power plant control systems, including local control systems.
++ Simple layout of tasks from the course "JavaScript/Front-end Stage 0"
+***
 ### Education:
-Высшее СПб ГМТУ Морской инженер с 2009 по 2014
-Высшее ВУС 402700 Ремонт и Эксплуатация ЯЭУ с 2010 по 2014
++ Saint-Petersburg State Marine Technological University
+Faculty of Ship Automation and Electronics
+Electric power and ship automation systems (180201, specialist)
+2009-2014
++ Saint-Petersburg State Marine Technological University
+Faculty of Naval Training
+Repair and operation of nuclear offshore installations (412000, lieutenant)
+2010-2013
++ "JavaScript/Front-end. Stage 0", 12.2021-02.2022
+***
 ### Languages:
-А2
+* English - A2
+* Russian - Native
