@@ -1,4 +1,5 @@
 ## Pavel Dudin
+![Pavel Dudin](https://github.com/dudinpn/rsschool-cv/blob/gh-pages/GitHubavatar.PNG)
 ***
 ###  Contact information:
 * Discord: Pavel Dudin#6577 
@@ -27,7 +28,7 @@ I am 29 years old. I have been working as a marine engineer for 7 years. But the
 >>>     }
 >>>    });
 ***
-### experience
+### Experience
 + Creation and design of power plant control systems, including local control systems.
 + Simple layout of tasks from the course "JavaScript/Front-end Stage 0"
 ***
