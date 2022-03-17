@@ -75,28 +75,32 @@
 
             <div id="Projects">
                 <h2>Projects</h2>
-                <p>Example of completed work <a href="https://dudinpn.github.io/rsschool-cv/cv" target="blank" class="nav-link">CV#1. Markdown & Git</a></p>
+                <br>
+                <p>Example of completed work 
+                    <ul>
+                       <li> <a href="https://rolling-scopes-school.github.io/dudinpn-JSFEPRESCHOOL/portfolio/#Contacts" target="blank"  class="nav-link">Portfolio</a> 
+                    </li> 
+                    <li>
+                    <a href="https://rolling-scopes-school.github.io/dudinpn-JSFEPRESCHOOL/eco-sounds/" target="blank" class="nav-link">Eco-sounds</a>
+                </li>
+                </ul>
+                </p>
+                <br>
+                
             </div>
 
             <div id="Code">
                 <h2>Code Example</h2>
-                <p>Acquaintance and first steps</p>
+                <p>Function changePhotos</p>
                 <pre class="code">
-                    *{
-                        margin: 0;
-                        padding: 0;
-                    }
-                    
-                    .text-block {background-color: blue;
-                            display: block;
-                        width: 167px;
-                        height: 21px;
-                        cursor: auto;
-                        overflow: hidden;}
-                    
-                    .text-block:hover {
-                        background-color: red;
-                    }   
+            function changePhotos (event){
+                if(event.target.classList.contains('button-port')){
+                     document.querySelectorAll('.button-port').forEach(btn => {
+                         console.log(btn.classList)
+                            if(btn.classList.contains('isActive')){
+                                btn.classList.remove('isActive')
+                                }
+                            });
                 </pre>
             </div>
 
@@ -133,6 +137,13 @@
                         <br>
                         <span>2010-2013</span> 
                     </li>
+                    <li>
+                        <span>RS_School</span>
+                        <br>
+                        <span>“JavaScript/Front-end”</span>
+                        <br>
+                        <span>12.2021 - until now</span> 
+                    </li>
                 </ol>   
             </div>
 
@@ -150,13 +161,13 @@
                 <li class="nav-item">
                     <a href="https://github.com/dudinpn" target="blank" class="nav-link flex-center">
                         <img class="github-logo" src="githublogo.png" alt="GitHub logo">
-                        Visit my GitHub 
+                        GitHub 
                     </a>
                 </li>
                 <li class="nav-item">
                     <a href="https://rs.school/js/" target="blank" class="nav-link flex-center">
                         <img class="rss-logo" src="https://rs.school/images/rs_school_js.svg" alt="Logotip RS_School">
-                        Курс «JavaScript/Front-end»
+                        
                     </a>
                 </li>
             </ul>
